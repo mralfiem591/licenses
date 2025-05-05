@@ -1,0 +1,8 @@
+{
+    "meta": {
+        "name": "Eclipse Public License 2.0"
+    },
+    "data": {
+        "license": "Eclipse Public License - v 2.0\n\nCopyright (c) <YEAR> <COPYRIGHT HOLDER>\n\nThis program and the accompanying materials are made available under the terms of the Eclipse Public License v. 2.0 which is available at <https://www.eclipse.org/legal/epl-2.0/>\n\nSPDX-License-Identifier: EPL-2.0\n\nThis Source Code may also be made available under the following Secondary Licenses when the conditions for such availability set forth in the Eclipse Public License v. 2.0 are satisfied: GNU General Public License, version 2 with the GNU Classpath Exception which is available at <https://www.gnu.org/software/classpath/license.html>."
+    }
+}
