@@ -25,6 +25,8 @@ This project is a Python-based license generator that allows users to create `LI
 
 ## Downloadable
 
+### Licenses
+
 - Academic Free License v3.0 (afl-3.0.json)
 - Apache License 2.0 (apache-2.0.json)
 - Artistic License 2.0 (artistic-2.0.json)
@@ -40,6 +42,9 @@ This project is a Python-based license generator that allows users to create `LI
 - Public Domain (pd.json)
 - The Unlicense (unlicense.json)
 - Zlib License (zlib.json)
+
+### Packages
+
 - C (Complete Package (All Licenses))
 - D (Default Package (MIT, Public Domain))
 
@@ -95,8 +100,22 @@ To add a new license manually:
 
 1. Create a JSON file in the `licenses` directory.
 2. Follow the format of existing license JSON files (e.g., `meta` and `data` fields).
+   
+**Example: MIT (mit.json)**
+```json
+{
+    "meta": {
+        "name": "MIT License"
+    },
+    "data": {
+        "license": "MIT License\n\nCopyright (c) <YEAR> <COPYRIGHT HOLDER>\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE."
+    }
+}
+```
 
-## Example
+> No matter what the file name is, it will show as whatever is in the **meta.name** field.
+
+## Example Usage
 
 When you run the script, you will see a menu of available licenses. Select a license by entering its number, and the script will guide you through the process of generating a `LICENSE` file.
 
