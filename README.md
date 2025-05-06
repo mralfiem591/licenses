@@ -101,7 +101,7 @@ To add a new license manually:
 1. Create a JSON file in the `licenses` directory.
 2. Follow the format of existing license JSON files (e.g., `meta` and `data` fields).
    
-**Example: MIT (mit.json)**
+**Example: MIT License (mit.json)**
 ```json
 {
     "meta": {
